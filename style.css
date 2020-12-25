@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-size: 7em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    padding: 0 0;
+    margin: 0 0;
+}
+div img{
+    width: 100%;
+    height: 1em;
+}
+header{
+    background-color: blue;
+}
+main{
+    background-color: blue;
+}
+aside{
+    background-color: blue;
+}
+footer{
+    background-color: yellowgreen;
+}
+@media screen and (min-width: 480px) {
+    header{
+        background-color: blue;
+    }
+    main{
+        background-color: blue;
+    }
+    aside{
+        background-color: yellowgreen;
+    }
+    footer{
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 720px) {
+    header{
+        background-color: blue;
+    }
+    main{
+        background-color: yellowgreen;
+    }
+    aside{
+        background-color: blue;
+    }
+    footer{
+        background-color: blue;
+    }
+}
+@media screen and (min-width: 1080px) {
+    header{
+        background-color: yellowgreen;
+    }
+    main{
+        background-color: blue;
+    }
+    aside{
+        background-color: blue;
+    }
+    footer{
+        background-color: blue;
+    }
+}
